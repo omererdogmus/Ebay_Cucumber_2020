@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="52.05">
+<testcase classname="Ebay Advanced Search Page" name="Ebay logo on advanced search page" time="5.102">
+<system-out><![CDATA[Given I am on Ebay advanced search page.....................................passed
+When I click on Ebay logo...................................................passed
+Then I am navigated to Ebay home page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Advanced Search Page" name="Advanced search an item" time="5.7">
+<system-out><![CDATA[Given I am on Ebay advanced search page.....................................passed
+When I advanced search an item..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="Advanced Search Link" time="3.956">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on advanced link...............................................passed
+Then I navigate to advanced search page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="Search items count" time="5.074">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I search for 'iPhone 11'...............................................passed
+Then I validate at least 1000 search items present..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="Search items count2" time="5.056">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I search for 'Toy Cars'................................................passed
+Then I validate at least 100 search items present...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="Search an item in category" time="5.199">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I search for 'soap' in 'baby' category.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="HomePage Links" time="5.145">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on 'Motors'....................................................passed
+Then I validate that page navigates to 'https://www.ebay.com/b/Auto-Parts-and-Vehicles/6000/bn_1865334' and title contains 'eBay Motors'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="HomePage Links 2" time="5.311">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on 'Fashion'...................................................passed
+Then I validate that page navigates to 'https://www.ebay.com/b/Fashion/bn_7000259856' and title contains 'Fashion'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="HomePage Links 3" time="5.804">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on 'Toys'......................................................passed
+Then I validate that page navigates to 'https://www.ebay.com/b/Toys-Hobbies/220/bn_1865497' and title contains 'Toys'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Home Page Scenarios" name="HomePage Links 4" time="5.42">
+<system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on 'Electronics'...............................................passed
+Then I validate that page navigates to 'https://www.ebay.com/b/Electronics/bn_7000259124' and title contains 'Electronics'.passed
+]]></system-out>
+</testcase>
+</testsuite>
